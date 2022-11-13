@@ -4,13 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario 4</title>
 </head>
 <body>
-    <p align="center">
-        <b>revista abierta</b>
-    <form>
-        
+    <form id="formulario 4" method="post" action="">
+        <label>Nombre:</label><input type="text" name="nombre" size="20" maxlength="20">
+        <label>Primer apellido</label><input type="text" name="primer apellido" size="10" maxlength="10">
+        <label>Segundo apellido:</label><input type="text" name="segundo apellido" size="10" maxlength="10">
+        <br>
+        <label>Dirección:</label><input type="text" name="direccion" size="30" maxlength="30">
+        <br>
+        <label>e-mail:</label><input type="email" name="e-mail" size="25" maxlength="25">
+        <br>
+        <label>contraseña:</label><input type="password" name="contraseña" size="16" maxlength="16">
+        <br>
+        <label>sexo</label>
+        <br>
+        <input type="radio" name="sexo" value="Varón"> Varón
+        <br>
+        <input type="radio" name="sexo" value="Mujer"> Mujer
+        <br>
+        <label>Nivel de estudios</label>
+        <br>
+        <input type="radio" name="Nivel de estudios" value="Certificado escolar"> Certificado escolar
+        <br>
+        <input type="radio" name="Nivel de estudios" value="Graduado en E.S.O."> Graduado en E.S.O
+        <br>
+        <input type="radio" name="Nivel de estudios" value="Bachiller - Formación Profesional"> Bachiller - Formación Profesional
+        <br>
+        <input type="radio" name="Nivel de estudios" value="Diplomado"> Diplomado
+        <br>
+        <input type="radio" name="Nivel de estudios" value="Licenciado o Doctorado"> Licenciado o Doctorado
+        <br>
+        Recibir artículos sobre los siguientes temas:
+        <br>
+        <input type="checkbox" name="Artículo" value="Música"> Música
+        <br>
+        <input type="checkbox" name="Artículo" value="Deportes"> Deportes
+        <br>
+        <input type="checkbox" name="Artículo" value="Cine"> Cine
+        <br>
+        <input type="checkbox" name="Artículo" value="Libros"> Libros
+        <br>
+        <input type="checkbox" name="Artículo" value="Ciencia"> Ciencia
+        <br>
+        Frecuencia con la que se recibirá la revista
+        <select name="Frecuencia" multiple size="1">
+            <option value="Diario">Diario</option>
+            <option value="Semanal" >Semanal</option>
+            <option value="Mensual">Mensual</option> 
+            <option value="Trimestral">Trimestral</option>
+        </select>
+        <select name="Opción">
+            <option value="Opción 1">Opción 1</option>
+            <option value="Opción 2">Opción 2</option>
+            <option value="Opción 3">Opción 3</option>
+            <option value="Opción 4">Opción 4</option>
+            <option value="Opción 5">Opción 5</option>
+        </select>
+        <br>
+        puedes mandar tu artículo sobre cualquier tema de los que tratamos. Nosotros lo
+        <br>
+valoraremos para que pùeda ser pùblicado.
+<br>
+mandar artículo:
+<br>
+Si deseas mandar simplemente una opinion o comentario escribelo aquí.
+<br>
+<textarea cols="30" rows="4" name="Comentarios personales"></textarea>
+<br>
+Borrar todos los datos del formulario y volver a empezar: <input type="reset" name="limpar" value="Borrar todo">
+<br>
+Enviar formulario por correo electronico: Al pulsar en el botón se abrirá la pagina de envío de
+correo: en esa página pulsa en enviar:
+<br>
+        <input type="submit" name="enviar" value="Enviar por correo">
     </form>
 </body>
 </html>
